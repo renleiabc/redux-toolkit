@@ -20,7 +20,7 @@ pnpm install
 pnpm add prettier  eslint-config-prettier eslint-plugin-prettier eslint-plugin-react -D
 ```
 
-Then configure .eslintrc.cjs + .eslintrc.cjs file
+Then configure .eslintrc.cjs + .prettierrc.cjs file
 
 ### Redux Toolkit is available as a package on NPM for use with a module bundler or in a Node application:
 

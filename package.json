@@ -16,8 +16,6 @@
     "react-redux": "^8.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/eslint-parser": "^7.22.5",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
@@ -36,7 +34,6 @@
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
-    "vite-plugin-eslint": "^1.8.1",
-    "vue-eslint-parser": "^9.3.1"
+    "vite-plugin-eslint": "^1.8.1"
   }
 }

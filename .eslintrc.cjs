@@ -23,29 +23,7 @@ module.exports = {
   plugins: ['react-refresh', 'react', '@typescript-eslint', 'prettier'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-    'prettier/prettier': [
-      'error',
-      {
-        semi: true,
-        endOfLine: 'auto',
-        singleQuote: true,
-        trailingComma: 'none',
-        bracketSpacing: true,
-        jsxBracketSameLine: false,
-        vueIndentScriptAndStyle: false,
-        'jsxBracketSameLine:': true,
-        htmlWhitespaceSensitivity: 'ignore',
-        wrapAttributes: true,
-        overrides: [
-          {
-            files: '*.html',
-            options: {
-              parser: 'html'
-            }
-          }
-        ]
-      }
-    ],
+    'prettier/prettier': 'error',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off'
   }

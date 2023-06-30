@@ -17,7 +17,7 @@ pnpm install
 ### Use prettier + eslint Beautify Code
 
 ```
-pnpm add prettier  eslint-config-prettier eslint-plugin-prettier eslint-plugin-react -D
+pnpm add prettier  eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-html -D
 ```
 
 Then configure .eslintrc.cjs + .prettierrc.cjs file

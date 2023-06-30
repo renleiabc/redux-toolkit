@@ -18,9 +18,10 @@ module.exports = {
   settings: {
     react: {
       version: 'detect'
-    }
+    },
+    'html/html-extensions': ['.html', '.we'] // consider .html and .we files as HTML
   },
-  plugins: ['react-refresh', 'react', '@typescript-eslint', 'prettier'],
+  plugins: ['react-refresh', 'react', '@typescript-eslint', 'prettier', 'html'],
   rules: {
     'react-refresh/only-export-components': 'warn',
     'prettier/prettier': 'error',

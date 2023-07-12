@@ -7,10 +7,12 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:react/jsx-runtime'
   ],
+
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
+      tsx: true
     },
     ecmaVersion: 'latest',
     sourceType: 'module'
@@ -23,7 +25,7 @@ module.exports = {
   },
   plugins: ['react-refresh', 'react', '@typescript-eslint', 'prettier', 'html'],
   rules: {
-    'react-refresh/only-export-components': 'warn',
+    'react-refresh/only-export-components': 'off',
     'prettier/prettier': 'error',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off'
